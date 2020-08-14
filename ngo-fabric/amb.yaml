@@ -59,7 +59,7 @@ Parameters:
     AllowedPattern: "^[0-9a-zA-Z]+$"
     ConstraintDescription: Network name must be alphanumeric and cannot contain spaces.
     Type: String
-    Default: ngo
+    Default: aipan
   NetworkDescription:
     Description: An optional description of your network.
     Type: String
@@ -107,7 +107,7 @@ Parameters:
       contain ', ", \, /, @ or spaces. It must not exceed 32 characters in length.
     Type: String
     NoEcho: true
-    Default: Adminpwd1!
+    Default: Aipanpw1!
   ThresholdPercentage:
     Description: The percentage of favorable votes needed to approve a blockchain proposal.
     MinValue: 1
